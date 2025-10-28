@@ -1,0 +1,29 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #111827; color: white; font-family: 'Inter', sans-serif; min-height: 100vh; }
+
+.header { text-align: center; padding: 4rem 1rem; }
+.title { font-size: 6rem; font-weight: 900; background: linear-gradient(to right, #a855f7, #ec4899); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+.subtitle { font-size: 1.25rem; color: #9ca3af; margin-top: 1rem; }
+
+.about { max-width: 48rem; margin: 0 auto; padding: 3rem 1rem; text-align: center; }
+.about h2 { font-size: 2rem; margin-bottom: 1rem; }
+.about p { font-size: 1.1rem; color: #d1d5db; line-height: 1.7; }
+
+.calendar-container { max-width: 56rem; margin: 0 auto; padding: 1rem; }
+.calendar { background: #1f2937; border-radius: 1rem; padding: 2rem; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3); }
+
+.calendar-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; }
+.calendar-header button { background: none; border: none; color: white; font-size: 1.5rem; cursor: pointer; padding: 0.5rem; }
+.calendar-header button:hover { color: #a855f7; }
+.calendar-header h2 { font-size: 1.5rem; font-weight: 600; }
+
+.weekdays, .calendar-days { display: grid; grid-template-columns: repeat(7, 1fr); gap: 0.5rem; text-align: center; }
+.weekdays { color: #9ca3af; font-size: 0.875rem; font-weight: 500; margin-bottom: 0.5rem; }
+
+.day { background: #374151; padding: 1rem; border-radius: 0.75rem; cursor: pointer; transition: all 0.2s; position: relative; }
+.day:hover { background: #6b21a8; transform: translateY(-2px); }
+.day.empty { background: transparent; cursor: default; }
+.day.has-fact { box-shadow: 0 0 0 2px #fbbf24; }
+.day.has-fact::after { content: 'Star'; position: absolute; top: 4px; right: 4px; font-size: 0.75rem; color: #fbbf24; }
+
+@media (max-width: 768px) { .title { font-size: 4rem; } }

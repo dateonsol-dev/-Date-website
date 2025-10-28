@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Date - Daily Facts</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="header">
+    <h1 class="title">$Date</h1>
+    <p class="subtitle">One day. One fact. Forever.</p>
+  </header>
+
+  <section class="about">
+    <h2>About</h2>
+    <p id="about-text">
+      Welcome to <strong>Date</strong> — a daily journey through crypto history, memes, and facts. Click any starred day to reveal the truth!
+    </p>
+  </section>
+
+  <section class="calendar-container">
+    <div class="calendar">
+      <div class="calendar-header">
+        <button id="prev-month">Previous</button>
+        <h2 id="month-year"></h2>
+        <button id="next-month">Next</button>
+      </div>
+      <div class="weekdays">
+        <div>Sun</div><div>Mon</div><div>Tue</div><div>Wed</div><div>Thu</div><div>Fri</div><div>Sat</div>
+      </div>
+      <div id="calendar-days" class="calendar-days"></div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

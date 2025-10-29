@@ -1,50 +1,54 @@
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body { background: #111827; color: white; font-family: 'Inter', sans-serif; min-height: 100vh; }
+body {
+  box-sizing: border-box;
+}
 
-.header { text-align: center; padding: 4rem 1rem; }
-.title { font-size: 6rem; font-weight: 900; background: linear-gradient(to right, #a855f7, #ec4899); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
-.subtitle { font-size: 1.25rem; color: #9ca3af; margin-top: 1rem; }
+.gradient-bg {
+  background: linear-gradient(135deg, #ec4899 0%, #8b5cf6 100%);
+}
 
-.about { max-width: 48rem; margin: 0 auto; padding: 2rem 1rem; text-align: center; }
-.about h2 { font-size: 2rem; margin-bottom: 1rem; }
-.about p { font-size: 1.1rem; color: #d1d5db; line-height: 1.7; }
+.chart-placeholder {
+  background: linear-gradient(45deg, #f0f0f0 25%, transparent 25%),
+    linear-gradient(-45deg, #f0f0f0 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #f0f0f0 75%),
+    linear-gradient(-45deg, transparent 75%, #f0f0f0 75%);
+  background-size: 20px 20px;
+  background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+}
 
-.calendar-container { max-width: 56rem; margin: 0 auto; padding: 1rem; }
-.calendar { background: #1f2937; border-radius: 1rem; padding: 2rem; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3); }
+.calendar-day {
+  transition: all 0.3s ease;
+}
 
-.calendar-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; }
-.calendar-header button { background: none; border: none; color: white; font-size: 1.5rem; cursor: pointer; }
-.calendar-header button:hover { color: #a855f7; }
-.calendar-header h2 { font-size: 1.5rem; font-weight: 600; }
+.calendar-day:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
 
-.weekdays, .calendar-days { display: grid; grid-template-columns: repeat(7, 1fr); gap: 0.5rem; text-align: center; }
-.weekdays { color: #9ca3af; font-size: 0.875rem; font-weight: 500; margin-bottom: 0.5rem; }
+.fact-card {
+  animation: slideIn 0.5s ease-out;
+}
 
-.day { background: #374151; padding: 1rem; border-radius: 0.75rem; cursor: pointer; transition: all 0.2s; position: relative; }
-.day:hover { background: #6b21a8; transform: translateY(-2px); }
-.day.empty { background: transparent; cursor: default; }
-.day.has-fact { box-shadow: 0 0 0 2px #fbbf24; }
-.day.has-fact::after { content: 'Star'; position: absolute; top: 4px; right: 4px; font-size: 0.75rem; color: #fbbf24; }
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
-/* Fact Display */
-.fact-display { max-width: 56rem; margin: 2rem auto; padding: 0 1rem; }
-.fact-card { background: #1f2937; padding: 2rem; border-radius: 1rem; box-shadow: 0 10px 20px rgba(0,0,0,0.3); }
-.fact-card h3 { font-size: 1.8rem; color: #fbbf24; margin-bottom: 1rem; }
-.fact-card p { font-size: 1.1rem; color: #e5e7eb; line-height: 1.7; }
-.fact-images { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
-.fact-images img { width: 100%; border-radius: 0.75rem; }
-.close-btn { background: #6b21a8; color: white; border: none; padding: 0.75rem 1.5rem; border-radius: 0.5rem; cursor: pointer; font-weight: 600; }
-.close-btn:hover { background: #5b1a9b; }
-.hidden { display: none; }
+.copy-success {
+  animation: pulse 0.6s ease-in-out;
+}
 
-/* Chart Link */
-.chart-link { text-align: center; padding: 2rem 1rem; }
-.chart-btn { background: #10b981; color: white; padding: 1rem 2rem; border-radius: 0.75rem; text-decoration: none; font-weight: 600; display: inline-block; }
-.chart-btn:hover { background: #059669; }
-
-/* Footer */
-.footer { text-align: center; padding: 2rem 1rem; background: #0f172a; font-size: 0.9rem; color: #9ca3af; }
-.social-links a { color: #9ca3af; margin: 0 1rem; text-decoration: none; }
-.social-links a:hover { color: white; }
-
-@media (max-width: 768px) { .title { font-size: 4rem; } }
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}

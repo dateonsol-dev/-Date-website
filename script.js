@@ -166,11 +166,12 @@ function showFact(day, monthKey) {
   }
 
   factDisplay.classList.remove("hidden");
-  factDisplay.scrollIntoView({ behavior: "smooth", block: "start" });
+  //factDisplay.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 // === Initialize Calendar ===
 window.onload = () => {
   loadFacts();
 };
+
 

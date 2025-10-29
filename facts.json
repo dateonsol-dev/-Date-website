@@ -2,15 +2,77 @@
   "2025-10": {
     "28": {
       "text": "On this day in 1886, the Statue of Liberty was officially dedicated in New York Harbor. A gift from France, she stands as a symbol of freedom, hope, and new beginnings for millions who arrived at America’s shores.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Head_of_the_Statue_of_Liberty_on_display_in_a_park_in_Paris.jpg"
-    }
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Head_of_the_Statue_of_Liberty_on_display_in_a_park_in_Paris.jpg"},
+    "29": {
+      "text": "On this day in 1929, Wall Street was rocked by “Black Tuesday” — the stock market crash that sparked the Great Depression. A turning point that reshaped economies, policies, and lives worldwide.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Crowd_outside_nyse.jpg"},
+    "30": {
+      "text": "On this day in 1961, humanity pushed the boundaries of destructive power — the Tsar Bomba explosion lit the Arctic skies in a test of nuclear might. A sobering reminder of our capacity — and responsibility.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c9/Tsar_photo11.jpg"},
+    "31": {
+      "text": "On this day in 1941, Mount Rushmore National Memorial was completed after 14 years of construction. The colossal sculptures of Presidents Washington, Jefferson, Roosevelt, and Lincoln became an enduring symbol of American history and ambition.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Mount_Rushmore_detail_view_%28100MP%29.jpg"}
   },
   "2025-11": {
-    "3": { "text": "A moment to plan ahead." },
-    "12": { "text": "Patience leads to progress." }
-  },
-  "2025-12": {
-  "24": { "text": "A night of reflection and celebration." },
-  "31": { "text": "The final moment of the year — embrace it fully." }
-}
+    "1": { "text": "On this day in 1952, the U.S. detonated its first thermonuclear bomb—ushering in a new era of nuclear power and global stakes.",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/8/84/IvyMikeGIFColorCorrected.gif" },
+    "2": { "text": "On this day in 1917, the Balfour Declaration was issued, in which the British government expressed support for “the establishment in Palestine of a national home for the Jewish people”. A pivotal moment in Middle-East history.",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/8/8e/Balfour_declaration_unmarked.jpg" },
+    "3": { "text": "On this day in 1957, the Soviet Union launched Sputnik 2 carrying Laika the dog — the first living being to orbit Earth.",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/3/33/Laika_ac_Sputnik_2_Replica_%286995685051%29.jpg" },
+    "4": { "text": "On this day in 2008, Barack Obama was elected the 44th President of the United States — becoming the first African American to hold the office.",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/e/e7/Obama_2008_portrait_crop_%283x4_close_cropped%29.jpg" },
+    "5": { "text": "On this day in 1605, Guy Fawkes was caught trying to blow up England’s Parliament.",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/b/b8/GunpowderPlot.jpg" },
+    "6": { "text": "On this day in 1860, Abraham Lincoln was elected the 16th President of the United States, changing the course of American history.",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/4/44/Abraham_Lincoln_O-77_matte_collodion_print_%283x4_close_cropped%29.jpg" },
+    "7": { "text": "On this day in 1917, the Bolsheviks seized power in Petrograd, ushering in the world’s first communist state — the Soviet Union.",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/c/c0/Lenin_in_1920_%28cropped%29.jpg" },
+    "8": { "text": "On this day in 1895, Wilhelm Röntgen discovered X-rays, revolutionizing medicine and science.",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/3/3a/Wilhelm_R%C3%B6ntgen_1900_Portrait_%283x4_cropped%29.jpg" },
+    "9": { "text": "On this day in 1989, the Berlin Wall fell — reuniting Germany and symbolizing the end of the Cold War.",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/1/1c/West_and_East_Germans_at_the_Brandenburg_Gate_in_1989.jpg" },
+    "10": { "text": "On this day in 1969, Sesame Street debuted on PBS — bringing Big Bird, Elmo, and lifelong learning to millions.",
+            "image":"https://sesameworkshop.org/wp-content/uploads/2023/05/2400x1800_SesameStreetCharacters-1040x780.png" },
+    "11": { "text": "On this day in 1918, the guns fell silent as World War I ended with the Armistice — honored today as Veterans Day & Remembrance Day.",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/2/2f/Armisticetrain_%28slight_crop%29.jpg" },
+    "12": { "text": "On this day in 1954, Ellis Island closed after processing over 12 million immigrants — the gateway to the American dream.",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/c/c3/Aerial_view_of_Ellis_Island%2C_Jersey_City%2C_New_Jersey_LCCN2011635626_-_cropped_balance.jpg" },
+    "13": { "text": "On this day in 1998, November 13th has been celebrated as World Kindness Day, promoting compassion and goodwill across the globe.",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/7/7f/Kindness_Awareness_March2.jpg" },
+    "14": { "text": "On this day in 1971, NASA’s Mariner 9 became the first spacecraft to orbit another planet — Mars.",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/1/11/Mariner09.jpg" },
+    "15": { "text": "On this day in 1965, the USSR launched Venera 3, the first spacecraft to reach another planet — Venus. Though it crash-landed, it made history.",
+            "image":"https://www.fromspacewithlove.com/wp-content/uploads/2019/07/venera-3-img.jpg" },
+    "16": { "text": "On this day in 1945, UNESCO was founded to promote peace through education, science, and culture.",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/d/d0/Flag_of_UNESCO.svg" },
+    "17": { "text": "On this day in 1558, Elizabeth I ascended the English throne, beginning a golden age of exploration, art, and power. Long live the Virgin Queen.",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/a/af/Darnley_stage_3.jpg" },
+    "18": { "text": "On this day in 1928, Mickey Mouse made his debut in Steamboat Willie — Disney’s first synchronized sound cartoon. A legend was born.",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/5/50/Steamboat_Willie_1928_Poster.png" },
+    "19": { "text": "On this day in 1863, Abraham Lincoln delivered the Gettysburg Address — redefining freedom and democracy.",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/1/10/Lincolnatgettysburg.jpg" },
+    "20": { "text": "On this day in 1945, the Nuremberg Trials began, bringing Nazi war criminals to justice — a milestone for international law.",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/1/1e/Color_photograph_of_judges%27_bench_at_IMT.jpg" },
+    "21": { "text": "On this day in 1620, the Pilgrims signed the Mayflower Compact — America’s first framework for self-government.",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/6/63/The_Mayflower_Compact_1620_cph.3g07155.jpg" },
+    "22": { "text": "On this day in 1963, President John F. Kennedy was assassinated in Dallas, Texas — a day that shook the world.",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/5/59/JFK_Motorcade_GettyImages-517330536.jpg" },
+    "23": { "text": "On this day in 1963, Doctor Who premiered on the BBC — launching one of the longest-running sci-fi series ever.",
+            "image":"https://upload.wikimedia.org/wikipedia/en/6/6c/Doctor_Who_Season_1_DVD.jpg" },
+    "24": { "text": "On this day in 1859, Charles Darwin published On the Origin of Species, forever changing how we understand life on Earth.",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/c/cd/Origin_of_Species_title_page.jpg" },
+    "25": { "text": "On this day in 1999, the 25th of Nov has been designated by the United Nations as the International Day for the Elimination of Violence Against Women, a global call to end violence against women and girls.",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/8/80/WDG_-_March_for_Elimination_of_Violence_Against_Women_in_Rome_%282018%29_18.jpg" },
+    "26": { "text": "On this day in 1842, the University of Notre Dame was founded in Indiana — growing into one of America’s most iconic institutions of learning.",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/c/c9/Main_Building_at_the_University_of_Notre_Dame.jpg" },
+    "27": { "text": "On this day in 1895, Alfred Nobel signed his will establishing the Nobel Prizes to honor those who “benefit mankind”.",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/6/6e/AlfredNobel_adjusted.jpg" },
+    "28": { "text": "On this day in 1929, explorer Richard E. Byrd and crew made the first flight over the South Pole — a triumph of courage and aviation.",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/5/50/Fokker_Universal_Byrd_Expedition_Antarctica_1929.jpg" },
+    "29": { "text": "On this day in 1947, the UN voted to partition Palestine, paving the way for the creation of Israel — and decades of conflict and diplomacy.",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/b/bd/UN_Palestine_Partition_Versions_1947.jpg" },
+    "30": { "text": "On this day in 1874, Winston Churchill was born. A towering wartime leader, orator, and writer whose influence shaped 20th-century history.",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/b/bc/Sir_Winston_Churchill_-_19086236948.jpg" }
+  }
 }

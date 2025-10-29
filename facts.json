@@ -1,14 +1,16 @@
 {
-  "2025-10-28": {
-    "date": "October 28, 2025",
-    "title": "Bitcoin Pizza Day",
-    "text": "Laszlo paid 10,000 BTC for 2 pizzas. Worth $700M+ today.",
-    "images": ["https://i.imgur.com/4M1t7jP.jpeg"]
+  "2025-10": {
+    "28": {
+      "text": "On this day in 1886, the Statue of Liberty was officially dedicated in New York Harbor. A gift from France, she stands as a symbol of freedom, hope, and new beginnings for millions who arrived at America’s shores.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Head_of_the_Statue_of_Liberty_on_display_in_a_park_in_Paris.jpg"
+    }
   },
-  "2025-12-25": {
-    "date": "December 25, 2025",
-    "title": "Santa HODLs",
-    "text": "Elon tweets 'HO HO HODL'. Markets pump 33%.",
-    "images": ["https://i.imgur.com/8k9pLmN.png"]
-  }
+  "2025-11": {
+    "3": { "text": "A moment to plan ahead." },
+    "12": { "text": "Patience leads to progress." }
+  },
+  "2025-12": {
+  "24": { "text": "A night of reflection and celebration." },
+  "31": { "text": "The final moment of the year — embrace it fully." }
+}
 }

@@ -45,6 +45,16 @@
           <p id="tagline" class="text-xl opacity-90 mb-8">
             The Future of Time Awareness on the Blockchain
           </p>
+
+          <!-- 📅 Local Date Display -->
+          <button
+            onclick="showLocalDate()"
+            class="bg-white/20 hover:bg-white/30 text-white px-6 py-3 rounded-lg font-medium transition-all duration-200"
+          >
+            📅 Show Today's Date
+          </button>
+
+          <p id="date-output" class="mt-4 text-2xl text-white hidden"></p>
         </div>
       </header>
 
@@ -153,7 +163,37 @@
             <div class="text-4xl mb-4">📈</div>
             Live Trading Data
           </h2>
-          <div class="relative overflow-hidden rounded-lg border border-gray-300">
+          <!-- Dexscreener Embedded Chart -->
+          <!-- <style>
+            #dexscreener-embed {
+              position: relative;
+              width: 100%;
+              padding-bottom: 125%;
+            }
+            @media (min-width: 1400px) {
+              #dexscreener-embed {
+                padding-bottom: 65%;
+              }
+            }
+            #dexscreener-embed iframe {
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              top: 0;
+              left: 0;
+              border: 0;
+            }
+          </style>
+
+          <div id="dexscreener-embed">
+            <iframe
+              src="https://dexscreener.com/solana/Cj5uqdHU2K27uTSQ5RcLjMMwz4cbJNqBR25FfaBRvyyN?embed=1&loadChartSettings=0&trades=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=0&chartType=usd&interval=15"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section> -->
+        <div class="relative overflow-hidden rounded-lg border border-gray-300">
             <iframe
               id="chart-frame"
               src="https://dexscreener.com/"

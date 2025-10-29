@@ -169,9 +169,27 @@ function showFact(day, monthKey) {
   //factDisplay.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
+function showLocalDate() {
+  const now = new Date();
+  const day = now.getDate();
+  const month = now.toLocaleString("default", { month: "long" });
+  const year = now.getFullYear();
+
+  function getOrdinal(n) {
+    const s = ["th", "st", "nd", "rd"];
+    const v = n % 100;
+    return s[(v - 20) % 10] || s[v] || s[0];
+  }
+
+  const suffix = getOrdinal(day);
+
+  const output = document.getElementById("date-output");
+  output.innerHTML = `The date today is the ${day}<sup style="font-size:0.6em; vertical-align:super;">${suffix}</sup> of ${month} ${year}!`;
+  output.classList.remove("hidden");
+}
+
+
 // === Initialize Calendar ===
 window.onload = () => {
   loadFacts();
 };
-
-
